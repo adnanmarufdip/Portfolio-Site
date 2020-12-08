@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Adnan Maruf - Software Engineer</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="img/siteLogo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">	
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img id="SiteLogo" src="img/siteLogoBigS.png" aria-label="Site Logo">
+        </a>
+        <nav class="fixedNav">
+            <input type="checkbox" id="check"  onclick="toggleNav()">
+            <label for="check" class="checkBtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul id="navUl">
+                <li><a href="index.html#Home" id="nav_1" onclick="hideULnav(this)">Home</a></li>
+                <li><a href="portfolio.html" id="nav_6" onclick="hideULnav(this)" class="Active">Portfolio</a></li>
+                <li><a href="gallery.html" id="nav_7" onclick="hideULnav(this)">Gallery</a></li>
+                <li><a href="contact.html" id="nav_8" onclick="hideULnav(this)">Contact</a></li>
+                <li>
+                    <section class="getUpdt">
+                        <a class="getUpdtBtn" id="nav_9" onclick="hideULnav(this)" href="#Get_Update" >Get Update</a>
+                    </section>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <div class="site_footer" id="Get_Update">
+            <div class="email_subb">
+                <div class="email_subb_overlay">
+                    <div class="getUpdt_rit">
+                        <h4>Subscribe to get update</h4>
+                        <p>Subscribe newsletter to get offers and about new places to discover.</p>
+                    </div>
+                    <div class="getUpdt_lft">
+                        <div class="email_input">
+                            <input type="Email" placeholder="Your Email Address" name="Email" class="Email">
+                        </div>
+                        <div class="subsBtn">
+                            <button type="button" class="SubscribeBtn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social_connect">
+                <div class="connect_ttl">
+                    <h3>Do you have any Project?</h3>
+                    <p>Connect &amp; talk to me on my social accounts.</p>
+                </div>
+                <div class="connect_link">
+                    <div class="social_link">
+                        <a href="#">
+                            <div class="social_link_name">
+                                <span>Linkedin</span>
+                            </div>
+                            <div class="social_link_icon">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="social_link">
+                        <a href="#">
+                            <div class="social_link_name">
+                                <span>Facebook</span>
+                            </div>
+                            <div class="social_link_icon">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="social_link">
+                        <a href="#">
+                            <div class="social_link_name">
+                                <span>Instagram</span>
+                            </div>
+                            <div class="social_link_icon">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="social_link">
+                        <a href="#">
+                            <div class="social_link_name">
+                                <span>Twitter</span>
+                            </div>
+                            <div class="social_link_icon">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_copyright">
+                    <p>Copyright ©2020 All rights reserved | This website is made by</p>
+                    <abbr title="Adnan Maruf Dip">&#9825;AMD&#9825;</abbr>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Adnan Maruf - Software Engineer</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="img/siteLogo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">	
+</head>
+<body onload="RequestClass()">
+	<header>
+			<a href="index.html">
+				<img id="SiteLogo" src="img/siteLogoBigS.png" aria-label="Site Logo">
+			</a>
+			<nav class="fixedNav">
+				<input type="checkbox" id="check"  onclick="toggleNav()">
+				<label for="check" class="checkBtn">
+					<i class="fas fa-bars"></i>
+				</label>
+				<ul id="navUl">
+					<li><a href="#Home" id="nav_1" onclick="hideULnav(this)">Home</a></li>
+					<li><a href="#About" id="nav_2" onclick="hideULnav(this)">About</a></li>
+					<li><a href="#Achievements" id="nav_3" onclick="hideULnav(this)">Achievements</a></li>
+					<li><a href="#Specialization" id="nav_4" onclick="hideULnav(this)">Specialization</a></li>
+					<li><a href="#Projects" id="nav_5" onclick="hideULnav(this)">Projects</a></li>
+					<li><a href="portfolio.html" id="nav_6" onclick="hideULnav(this)">Portfolio</a></li>
+					<li><a href="gallery.html" id="nav_7" onclick="hideULnav(this)">Gallery</a></li>
+					<li><a href="contact.html" id="nav_8" onclick="hideULnav(this)">Contact</a></li>
+					<li>
+						<section class="getUpdt">
+							<a class="getUpdtBtn" id="nav_9" onclick="hideULnav(this)" href="#Get_Update" >Get Update</a>
+						</section>
+					</li>
+				</ul>
+			</nav>
+	</header>
+	<script>
+		window.onscroll = function () {navBar_toggle(), ViewportHome(), ViewportAbout(), ViewportAchievements(), ViewportSpecialization(), ViewportProjects(), ViewportGetUpdate()};
+	</script>
+	<main>
+		<div class="floating_nav" id="floating_nav">
+			<a href="index.html">
+				<img id="SiteLogo" src="img/siteLogoBigS.png" aria-label="Site Logo">
+			</a>
+			<nav class="fixedNav">
+				<input type="checkbox" id="check"  onclick="toggleNav()">
+				<label for="check" class="checkBtn">
+					<i class="fas fa-bars"></i>
+				</label>
+				<ul id="navUl" style="margin-right: 61px !important;">
+					<li><a href="#Home" id="nav_I" onclick="hideULnav(this)">Home</a></li>
+					<li><a href="#About" id="nav_II" onclick="hideULnav(this)">About</a></li>
+					<li><a href="#Achievements" id="nav_III" onclick="hideULnav(this)">Achievements</a></li>
+					<li><a href="#Specialization" id="nav_IV" onclick="hideULnav(this)">Specialization</a></li>
+					<li><a href="#Projects" id="nav_V" onclick="hideULnav(this)">Projects</a></li>
+					<li><a href="portfolio.html" id="nav_VI" onclick="hideULnav(this)">Portfolio</a></li>
+					<li><a href="gallery.html" id="nav_VII" onclick="hideULnav(this)">Gallery</a></li>
+					<li><a href="contact.html" id="nav_VIII" onclick="hideULnav(this)">Contact</a></li>
+					<li>
+						<section class="getUpdt" style="margin-top: 5px;">
+							<a class="getUpdtBtn" id="nav_IX" onclick="hideULnav(this)" href="#Get_Update">Get Update</a>
+						</section>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div id="Home" class="home">
+			<div class="containerGrt">
+				<section class="mainGrtTxt">
+					<section class="grtPrt1">
+						<p>Hi! there,</p>
+					</section>
+					<section class="grtPrt2">
+						<p>I'm Adnan</p>
+					</section>
+				</section>
+				<section class="grtPrt3">
+					<p>Software Engineer &amp; IT-Executive</p>
+				</section>
+				<section class="viewSpecBtn" id="link1_0" onclick="clickLink(this)">
+					<a href="#Specialization" id="aBtn0"> View Specialization</a>
+				</section>
+				<section class="grtPrt5">
+					<i class="fas fa-angle-double-down fa-5x"></i>
+				</section>
+			</div>
+		</div>
+		<div id="About" class="about">
+			<section class="abt_ttl">
+				<p><span id="section_title_color">Let's</span> talk about me for a little bit</p>
+			</section>
+			<section id="abtTtl2">
+				<p>
+					I’m a Creative director based on New York, who loves clean, simple & unique design. I also enjoy crafting
+				</p>
+			</section>
+			<div class="abtDes0">
+				<div class="abtDes1">
+					<p>
+						Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum. Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.
+						Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget! 
+					</p>
+				</div>
+				<div class="abtDes2" on>
+					<div>
+						<span>Knowledge -</span>
+						<span id="barVal1">60%</span><br>
+						<progress id="bar1" value="60" max="100"></progress>
+					</div>
+					<div>
+						<span>Experience -</span>
+						<span id="barVal2">35%</span><br>
+						<progress id="bar2" value="35" max="100"></progress>
+					</div>
+					<div>
+						<span>Problem Solving -</span>
+						<span id="barVal3">70%</span><br>
+						<progress id="bar3" value="70" max="100"></progress>
+					</div>
+					<div>
+						<span>Communication Skill -</span>
+						<span id="barVal4">60%</span><br>
+						<progress id="bar4" value="60" max="100"></progress>
+					</div>
+					<div>
+						<span>Complex Thinking -</span>
+						<span id="barVal5">50%</span><br>
+						<progress id="bar5" value="50" max="100"></progress>
+					</div>
+					<div>
+						<span>Academic Result -</span>
+						<span id="barVal6">70%</span><br>
+						<progress id="bar6" value="70" max="100"></progress>
+					</div>
+			    </div>
+			<section class="rsDwnld">
+				<a href="#Download">Download Resume</a>
+			</section>
+		</div>
+		</div>
+		<div id="Achievements" class="achvmnt">
+			<section class="achvmnt_ttl">
+				<p><span id="section_title_color">My</span> Achievements</p>
+			</section>
+			<section class="achvmnt_des">
+				<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+			</section>
+			<div class="achvmnt_cards">
+				<div class="achCard">
+					<div class="cardImg">
+						<img src="img/acv1.png" alt="">
+					</div>
+					<div class="cardTtl">
+						<p>Introduction to HTML5</p>
+					</div>
+					<div class="cardDes">
+						<p>Thanks to a growing number of software programs, it seems as if anyone can make a webpage. But what if you actually want to understand how the page was created.</p>
+					</div>
+					<div class="achvlink">
+						<a href="https://www.coursera.org/account/accomplishments/verify/5BXDL98EKQN5" target="_blank">View Certificate</a>
+					</div>
+				</div>
+				<div class="achCard">
+					<div class="cardImg">
+						<img src="img/acv1.png" alt="">
+					</div>
+					<div class="cardTtl">
+						<p>Introduction to CSS3</p>
+					</div>
+					<div class="cardDes">
+						<p>The web today is almost unrecognizable from the early days of white pages with lists of blue links.  Now, sites are designed with complex layouts and customized color schemes.</p>
+					</div>
+					<div class="achvlink">
+						<a href="https://www.coursera.org/account/accomplishments/verify/57NG9RDHMSTR" target="_blank">View Certificate</a>
+					</div>
+				</div>
+				<div class="achCard">
+					<div class="cardImg">
+						<img src="img/acv1.png" alt="">
+					</div>
+					<div class="cardTtl">
+						<p>Interactivity with JS</p>
+					</div>
+					<div class="cardDes">
+						<p>If you want to take your website to the next level, the ability to incorporate interactivity is a must. This course will introduce you to the basics of the JavaScript language.</p>
+					</div>
+					<div class="achvlink">
+						<a href="https://www.coursera.org/account/accomplishments/verify/HQ7UKMLK8JXP" target="_blank">View Certificate</a>
+					</div>
+				</div>
+				<div class="achCard">
+					<div class="cardImg">
+						<img src="img/acv2.png" alt="">
+					</div>
+					<div class="cardTtl">
+						<p>Modern JavaScript: ES6</p>
+					</div>
+					<div class="cardDes">
+						<p>Mastering modern JavaScript starts with understanding the reasoning behind the main ES6 features The concepts behind Node, React and Angular</p>
+					</div>
+					<div class="achvlink">
+						<a href="https://www.coursera.org/account/accomplishments/verify/98QYPKVP7CLM" target="_blank">View Certificate</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Specialization" class="splclztn">
+			<section class="splclztn_ttl">
+				<p><span id="section_title_color">My</span> Specialization</p>
+			</section>
+			<div class="splclztn_container">
+				<div class="splclztn_lft">
+					<div class="splclztn_sidebar">
+						<div class="sidebar_top">
+							<img src="img/sidebarBanner.png" alt="">
+						</div>
+						<div class="sidebar_bottom">
+							<div class="sidebar_subsec">
+								<div class="subsec_lft">
+									<i id="sideFa1" class="fas fa-clipboard fa-3x" aria-hidden="true"></i>
+								</div>
+								<div class="subsec_rit" id="link1_1" onclick="clickLink(this)">
+									<div class="sidebar_link">
+										<a href="#" id="aBtn1"><i class="fas fa-download fa-3x"></i></a>
+									</div>
+									<div class="sidebar_lbl">
+										<span id="sidLbl">My CV</span>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar_subsec">
+								<div class="subsec_lft">
+									<i id="sideFa1" class="fas fa-clone fa-3x" aria-hidden="true"></i>
+								</div>
+								<div class="subsec_rit" id="link1_2" onclick="clickLink(this)">
+									<div class="sidebar_link">
+										<a href="#" id="aBtn2"><i class="fas fa-download fa-3x"></i></a>
+									</div>
+									<div class="sidebar_lbl">
+										<span id="sidLbl">My Resume</span>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar_subsec">
+								<div class="subsec_lft">
+									<i id="sideFa1" class="fas fa-user-graduate fa-3x" aria-hidden="true"></i>
+								</div>
+								<div class="subsec_rit" id="link1_3" onclick="clickLink(this)">
+									<div class="sidebar_link">
+										<a href="#" id="aBtn3"><i class="fas fa-download fa-3x"></i></a>
+									</div>
+									<div class="sidebar_lbl">
+										<span id="sidLbl">My Portfolio</span>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar_subsec">
+								<div class="subsec_lft">
+									<i id="sideFa1" class="fas fa-address-card fa-3x" aria-hidden="true"></i>
+								</div>
+								<div class="subsec_rit" id="link1_4" onclick="clickLink(this)">
+									<div class="sidebar_link">
+										<a href="#" id="aBtn4"><i class="fas fa-user-clock fa-3x"></i></a>
+									</div>
+									<div class="sidebar_lbl">
+										<span id="sidLbl">Hire me</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="splclztn_rit">
+					<div class="splclztn_field">
+						<div class="splclztn_icn">
+							<i class="fab fa-windows fa-3x" aria-hidden="true"></i>
+						</div>
+						<div class="splclztn_sumry">
+							<p class="splclztn_sumry_ttl">
+								Windows <span class="splclztn_sumry_ttl_color">Forms</span>
+							</p>
+							<p class="splclztn_sumry_des">
+								Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+							</p>
+						</div>
+					</div>
+					<div class="splclztn_field">
+						<div class="splclztn_icn">
+							<i class="fas fa-globe fa-3x" aria-hidden="true"></i>
+						</div>
+						<div class="splclztn_sumry">
+							<p class="splclztn_sumry_ttl">
+								Web <span class="splclztn_sumry_ttl_color">Design</span>
+							</p>
+							<p class="splclztn_sumry_des">
+								Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+							</p>
+						</div>
+					</div>
+					<div class="splclztn_field">
+						<div class="splclztn_icn">
+							<i class="fas fa-mobile-alt fa-3x" aria-hidden="true"></i>
+						</div>
+						<div class="splclztn_sumry">
+							<p class="splclztn_sumry_ttl">
+								Mobile <span class="splclztn_sumry_ttl_color">Design</span>
+							</p>
+							<p class="splclztn_sumry_des">
+								Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+							</p>
+						</div>
+					</div>
+					<div class="splclztn_field">
+						<div class="splclztn_icn">
+							<i class="fab fa-sketch fa-3x" aria-hidden="true"></i>
+						</div>
+						<div class="splclztn_sumry">
+							<p class="splclztn_sumry_ttl">
+								UI/UX <span class="splclztn_sumry_ttl_color">Design</span>
+							</p>
+							<p class="splclztn_sumry_des">
+								Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Projects" class="prjct">
+			<section class="prjct_ttl">
+				<p><span id="section_title_color">All</span> Projects</p>
+			</section>
+			<div class="prjct_container">
+				<div class="single_prjct">
+					<div class="prjct_img">
+						<img src="img/DemoPrjct.jpg" alt="">
+					</div>
+					<div class="hover_overlay"></div>
+					<div class="prjct_details">
+						<span class="prjct_name">
+							VoiceBox
+						</span>
+						<span class="prjct_link">
+							<a href="#">View Demo</a>
+						</span>
+					</div>
+				</div>
+				<div class="single_prjct">
+					<div class="prjct_img">
+						<img src="img/DemoPrjct.jpg" alt="">
+					</div>
+					<div class="hover_overlay"></div>
+					<div class="prjct_details">
+						<span class="prjct_name">
+							VoiceBox
+						</span>
+						<span class="prjct_link">
+							<a href="#">View Demo</a>
+						</span>
+					</div>
+				</div>
+				<div class="single_prjct">
+					<div class="prjct_img">
+						<img src="img/DemoPrjct.jpg" alt="">
+					</div>
+					<div class="hover_overlay"></div>
+					<div class="prjct_details">
+						<span class="prjct_name">
+							VoiceBox
+						</span>
+						<span class="prjct_link">
+							<a href="#">View Demo</a>
+						</span>
+					</div>
+				</div>
+				<div class="single_prjct">
+					<div class="prjct_img">
+						<img src="img/DemoPrjct.jpg" alt="">
+					</div>
+					<div class="hover_overlay"></div>
+					<div class="prjct_details">
+						<span class="prjct_name">
+							VoiceBox
+						</span>
+						<span class="prjct_link">
+							<a href="#">View Demo</a>
+						</span>
+					</div>
+				</div>
+				<div class="single_prjct">
+					<div class="prjct_img">
+						<img src="img/DemoPrjct.jpg" alt="">
+					</div>
+					<div class="hover_overlay"></div>
+					<div class="prjct_details">
+						<span class="prjct_name">
+							VoiceBox
+						</span>
+						<span class="prjct_link">
+							<a href="#">View Demo</a>
+						</span>
+					</div>
+				</div>
+				<div class="single_prjct">
+					<div class="prjct_img">
+						<img src="img/DemoPrjct.jpg" alt="">
+					</div>
+					<div class="hover_overlay"></div>
+					<div class="prjct_details">
+						<span class="prjct_name">
+							VoiceBox
+						</span>
+						<span class="prjct_link">
+							<a href="#">View Demo</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="site_footer" id="Get_Update">
+				<div class="email_subb">
+					<div class="email_subb_overlay">
+						<div class="getUpdt_rit">
+							<h4>Subscribe to get update</h4>
+							<p>Subscribe newsletter to get offers and about new places to discover.</p>
+						</div>
+						<div class="getUpdt_lft">
+							<div class="email_input">
+								<input type="Email" placeholder="Your Email Address" name="Email" class="Email">
+							</div>
+							<div class="subsBtn">
+								<button type="button" class="SubscribeBtn">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="social_connect">
+					<div class="connect_ttl">
+						<h3>Do you have any Project?</h3>
+						<p>Connect &amp; talk to me on my social accounts.</p>
+					</div>
+					<div class="connect_link">
+						<div class="social_link">
+							<a href="#">
+								<div class="social_link_name">
+									<span>Linkedin</span>
+								</div>
+								<div class="social_link_icon">
+									<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+								</div>
+							</a>
+						</div>
+						<div class="social_link">
+							<a href="#">
+								<div class="social_link_name">
+									<span>Facebook</span>
+								</div>
+								<div class="social_link_icon">
+									<i class="fab fa-facebook-f" aria-hidden="true"></i>
+								</div>
+							</a>
+						</div>
+						<div class="social_link">
+							<a href="#">
+								<div class="social_link_name">
+									<span>Instagram</span>
+								</div>
+								<div class="social_link_icon">
+									<i class="fab fa-instagram" aria-hidden="true"></i>
+								</div>
+							</a>
+						</div>
+						<div class="social_link">
+							<a href="#">
+								<div class="social_link_name">
+									<span>Twitter</span>
+								</div>
+								<div class="social_link_icon">
+									<i class="fab fa-twitter" aria-hidden="true"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="footer_copyright">
+						<p>Copyright ©2020 All rights reserved | This website is made by</p>
+						<abbr title="Adnan Maruf Dip">&#9825;AMD&#9825;</abbr>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
