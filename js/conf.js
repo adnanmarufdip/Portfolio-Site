@@ -1,7 +1,7 @@
 {
   "Gonfig": {
     "Bioxo": {
-      "Auth": true
+      "Auth": false
     },
     "Payments": {
       "Auth": false
